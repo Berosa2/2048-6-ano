@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-image: url('Ing/2.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x4 {
+    background-image: url('Ing/4.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x8 {
+    background-image: url('Ing/8.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+.x16{
+    background-image: url('Ing/16.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x32{
+    background-image: url('Ing/32.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x64{
+    background-image: url('Ing/64.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x128{
+    background-image: url('Ing/128.png');
+    background-size: cover; /* Define a imagem de fundo */
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: fuchsia;
+}
+
+.x512{
+    background-color: #6151ed;
+    color: brown;
+}
+
+.x1024{
+    background-color: #bb124a;
+    color: skyblue;
+}
+
+.x2048{
+    background-color: #aca58d;
+    color: rebeccapurple;
+}
+
+.x4096 {
+    background-color: gold;
+    color: firebrick;
+}
+
+.x8192 {
+    background-color: lightseagreen;
+    color: rgb(255, 255, 255);
+}
