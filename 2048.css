@@ -8,8 +8,8 @@ hr {
 }
 
 #board {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
 
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
