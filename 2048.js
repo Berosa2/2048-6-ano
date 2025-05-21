@@ -1,7 +1,7 @@
 var board;
 var score = 0;
-var rows = 5;
-var columns = 5;
+var rows = 4;
+var columns = 4;
 
 window.onload = function() {
     setGame();
@@ -9,18 +9,16 @@ window.onload = function() {
 
 function setGame() {
     // board = [
-    //     [2, 2, 2, 2],
-    //     [2, 2, 2, 2],
-    //     [4, 4, 8, 8],
-    //     [4, 4, 8, 8]
+    //     [2, 2, 2],
+    //     [2, 2, 2],
+    //     [4, 4, 8],  
     // ];
 
     board = [
-        [0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0]
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0]
     ]
 
     for (let r = 0; r < rows; r++) {
